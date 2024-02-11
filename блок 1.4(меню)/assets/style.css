@@ -1,0 +1,118 @@
+
+body {
+    font-family: "TTLakes-Regular", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #FFFFFF;
+    color: #1B1C21;
+    width: 768px;
+    height: 1024px;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.menu {
+    width: 320px;
+    height: 1024px;
+    box-shadow: 10px 0 52px 0 #0E185033;
+}
+.header-main_ul {
+    margin-bottom: 40px;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.header-main_ul {
+    display: flex;
+    align-items: center;
+    padding-top: 18px;
+    padding-left: 24px;
+}
+.icons {
+    margin-right: 17px;
+}
+.icons:nth-child(2) {
+    margin-right: 78px;
+}
+.main-block {
+    width: 222px;
+    height: 876px;
+}
+.main-block {
+    padding-left: 24px;
+}
+.clause {
+    margin-bottom: 32px;
+}
+.clause:last-child {
+    margin-bottom: 268px;
+}
+.clause:nth-child(1) {
+    color: #7E7E82;
+}
+.clause:active::before {
+    content: "";
+    width: 5px;
+    height: 25px;
+    background-color: aqua;
+    border-radius: 20%;
+    position: absolute;
+    left: 0px;
+}
+.contacts {
+    margin-bottom: 40px;
+}
+.contacts_icons {
+    display: flex;
+}
+.contact {
+    margin-right: 13px;
+}
+.contact:last-child {
+    margin-right: 0;
+}
+.contacts_number {
+    font-size: 24px;
+    line-height: 26px;
+    font-weight: bolder;
+}
+.ru {
+    color: #7E7E82;
+}
+@font-face {
+    font-family: "TTLakes-Regular";
+    src: url(../TTLakes-Regular.ttf);
+}
+@font-face {
+    font-weight: 700;
+    font-family: "TTLakes-Bold";
+    src: url("../TTLakes-Bold.ttf");
+  }
+@font-face {
+    font-weight: 900;
+    font-family: "TTLakes-Black";
+    src: url("../TTLakes-Black.ttf");
+  }
+a:hover {
+    color: pink;
+}
+.contact:hover {
+    transform: scale(1.2) rotate(360deg);
+    transition: 0.70s;
+}
+.icons .burger:hover {
+    transform: scale(1.3);
+    transition: 0.70s;
+}
+button {
+    border: none;
+    background-color: white;
+}
+button:active {
+    border: solid 1px grey;
+}
